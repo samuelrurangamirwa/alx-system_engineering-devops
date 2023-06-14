@@ -1,5 +1,6 @@
 ## Resources
 
+
     Expansions
     Shell Arithmetic
     Variables
