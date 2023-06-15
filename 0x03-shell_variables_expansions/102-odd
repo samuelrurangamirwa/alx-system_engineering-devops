@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n '' "$(cat)" | grep -E '^[0-9]+:' | cut -d ':' -f 2-
+grep -n '' | cut -d':' -f2
