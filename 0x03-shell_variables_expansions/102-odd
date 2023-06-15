@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n '' | paste -sd '\n' | cut -d$'\n' -f1- -s
+grep -n '^' | grep -E '^[0-9]*[02468]:|^10:' | cut -d':' -f2
