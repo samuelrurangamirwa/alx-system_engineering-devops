@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n '' | cut -d':' -f2
+grep -n '' | cut -d':' -f2 | paste -sd '\n'
