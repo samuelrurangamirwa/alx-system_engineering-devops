@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | head -n 11 | tail -n 10
+echo {a..z}{a..z} | tr " " "\n" | grep -v "oo"
